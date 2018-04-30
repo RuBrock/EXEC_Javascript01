@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Questrial', sans-serif;
+}
+
+html,body{
+	height: 100%;
+}
+
+body{
+	background: url('../images/banco.JPG');
+	background-position: center;
+	background-size: cover;
+}
+
+.clear{
+	clear: both;
+}
+
+.container{
+	width: 100%;
+	max-width: 400px;
+	height: 550px;
+	margin: 5% auto;
+	padding: 40px 2%;
+	background: red;
+	border-radius: 5px;
+	box-shadow: 3px 3px 1px 1px rgba(10,10,10,.7);
+}
+
+.tela{
+	width: 100%;
+	margin: 5px auto;
+	padding: 5px;
+	height: 250px;
+	background: white;
+	position: relative;
+	text-align: center;
+}
+
+.tela h3{
+	display: inline-block;
+	padding: 5px;
+	font-size: 30px;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+#num{
+	width: 100%;
+	height: 50px;
+	padding: 10px;
+	position: absolute;
+	left: 0;
+	bottom: 30%;
+	font-size: 25px;
+	text-align: center;
+}
+
+#botaoSaque{
+	background: green;
+	color: white;
+	width: 50%;
+	padding: 10px;
+	margin: 15px auto;
+	border:none;
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	right: 25%;
+}
+
+#botaoConsulta{
+	background: green;
+	color: white;
+	width: 50%;
+	padding: 10px;
+	margin: 15px auto;
+	border:none;
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	right: 25%;
+}
+
+.portinhola{
+	width: 100%;
+	margin: 15px auto;
+	padding: 5px;
+	height: 90px;	
+	background: #CCC;
+}
+
+.portinhola h3{
+	display: inline-block;
+	padding: 5px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.sacar{
+	float: left;
+	background: grey;
+	color: white;
+	width: 45%;
+	padding: 10px;
+	margin-left: 5px;
+	border:none;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.consultar{
+	float: right;
+	background: grey;
+	color: white;
+	width: 45%;
+	padding: 10px;
+	margin-right: 5px;
+	border:none;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.limpar{
+	background: grey;
+	color: black;
+	width: 100%;
+	padding: 10px;
+	margin: 15px auto;
+	border:none;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 16px;
+}
