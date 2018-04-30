@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+
+<html lang="pt-br">
+
+
+<head>
+
+	<meta charset="utf-8" />
+	<title>Caixa Eletrônico</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+
+	<script language="javascript" src="javascript.js"></script>
+
+</head>
+
+
+<body>
+
+	<div class="container">
+		
+		<div class="tela">
+			<h3 id="help"></h3>
+			<div id="operacao" style="display: none;">
+				<form id="formu">
+				<input type="number" id="num" min="2"/>
+				</form>
+				<button type="button" id="botaoSaque" style="display: none;" onclick="botaoSacar()">Enviar</button>
+				<button type="button" id="botaoConsulta" style="display: none;" onclick="botaoConsultar()">Enviar</button>
+			</div>
+		</div>
+
+		<div class="portinhola">
+			<h3 id="saida"></h3>
+		</div>
+
+		<button type="button" class="sacar" onclick="sacar()">
+			Sacar
+		</button>
+
+		<button type="button" class="consultar" onclick="consultar()">
+			Consultar
+		</button>
+
+		<button type="button" class="limpar" onclick="limpar()">
+			Limpar
+		</button>
+
+		<div class="clear"></div>
+
+	</div>
+
+</body>
+
+
+</html>
